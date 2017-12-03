@@ -12885,4 +12885,11 @@ mono_aot_is_shared_got_offset (int offset)
 	return FALSE;
 }
 
+int
+mono_compile_deferred_assemblies (guint32 opts, const char *aot_options, gpointer **aot_state)
+{
+	g_assert_not_reached ();
+	return 0;
+}
+
 #endif
